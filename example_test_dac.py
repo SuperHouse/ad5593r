@@ -10,7 +10,7 @@
 #
 
 import time
-from AD5593R import AD5593R, AD5593R_LDAC_DIRECT, AD5593R_LIB_VERSION
+from ad5593r import AD5593R, AD5593R_LDAC_DIRECT, AD5593R_LIB_VERSION
 
 # Create AD5593R instance with I2C address 0x10
 # Default bus number is 1 (for Raspberry Pi)
