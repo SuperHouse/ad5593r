@@ -14,8 +14,8 @@ maintainers = [
   {name = "Jonathan Oxer", email = "jon@oxer.com.au"}
 ]
 classifiers = [
-    "Software Development :: Embedded Systems",
-    "System :: Hardware :: Hardware Drivers",
+    "Topic :: Software Development :: Embedded Systems",
+    "Topic :: System :: Hardware :: Hardware Drivers",
     "License :: OSI Approved :: MIT License"
 ]
 license = {text = "MIT"}
