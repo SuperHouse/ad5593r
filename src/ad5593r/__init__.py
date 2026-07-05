@@ -27,5 +27,3 @@ __all__ = [
     'AD5593R_LDAC_HOLD',
     'AD5593R_LDAC_RELEASE',
 ]
-
-

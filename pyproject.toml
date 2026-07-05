@@ -1,0 +1,27 @@
+[project]
+name = "ad5593r"
+version = "0.1.1"
+description = "Python Library to interface with Analog Devices Inc. AD5593R Configurable ADC/DACs with On-chip Reference, I²C Interface featuring eight I/O pins."
+readme = "README.md"
+authors = [
+  {name = "Jonathan Oxer", email = "jon@oxer.com.au"}
+]
+maintainers = [
+  {name = "Jonathan Oxer", email = "jon@oxer.com.au"}
+]
+classifiers = [
+    "Software Development :: Embedded Systems",
+    "System :: Hardware :: Hardware Drivers"
+]
+license = {text = "MIT"}
+dependencies = [
+  "smbus2>=0.4.0",
+]
+requires-python = ">= 3.11"
+
+[project.urls]
+bugs = "https://github.com/SuperHouse/ad5593r/issues"
+homepage = "https://github.com/SuperHouse/ad5593r"
+
+[project.scripts]
+ad5593r = "ad5593r.cli:app"
