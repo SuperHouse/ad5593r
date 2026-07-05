@@ -15,7 +15,8 @@ maintainers = [
 ]
 classifiers = [
     "Software Development :: Embedded Systems",
-    "System :: Hardware :: Hardware Drivers"
+    "System :: Hardware :: Hardware Drivers",
+    "License :: OSI Approved :: MIT License"
 ]
 license = {text = "MIT"}
 dependencies = [
@@ -27,5 +28,5 @@ requires-python = ">= 3.11"
 bugs = "https://github.com/SuperHouse/ad5593r/issues"
 homepage = "https://github.com/SuperHouse/ad5593r"
 
-[project.scripts]
-ad5593r = "ad5593r.cli:app"
+[tool.setuptools.packages.find]
+where = ["src"]
